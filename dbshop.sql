@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 20, 2019 at 10:04 AM
+-- Generation Time: Aug 22, 2019 at 04:54 PM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.3.5
 
@@ -37,14 +37,6 @@ CREATE TABLE `message` (
   `status` enum('1','0') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `message`
---
-
-INSERT INTO `message` (`message_id`, `msg_sender`, `msg_receiver`, `msg_send_on`, `msg_content`, `status`) VALUES
-(1, 2, 1, '20-08-2019 12:12:34 pm', 'Hello broi', '1'),
-(2, 1, 2, '20-08-2019 12:14:51 pm', 'hii', '1');
-
 -- --------------------------------------------------------
 
 --
@@ -72,8 +64,7 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`admin_id`, `admin_uid`, `admin_email`, `admin_name`, `admin_password`, `admin_phone`, `admin_image`, `admin_address`, `last_login_date`, `last_ip_address`, `created_on`, `is_logged_in`, `status`) VALUES
-(1, 'shijin', 'shijin802@gmail.com', 'Shijin Raj', '202cb962ac59075b964b07152d234b70', '9495457373', '89b0fc1802963814bc65071d54c34da5200820191.jpeg', '', '20-08-2019 12:12:40 pm', '::1', '20-08-2019 11:38:01 am', '0', '1'),
-(2, 'akhil', 'akhildhanesh@gmail.com', 'Akhil K', '202cb962ac59075b964b07152d234b70', '9876543210', 'e327510a680bc3acc653fb5f40bdc57320082019.jpeg', '', '20-08-2019 12:14:58 pm', '::1', '20-08-2019 12:10:56 pm', '1', '1');
+(1, 'shijin', 'shijin@abc.com', 'Shijin Raj', '202cb962ac59075b964b07152d234b70', '1234567890', '89b0fc1802963814bc65071d54c34da5200820191.jpeg', 'Abcdefghi', '20-08-2019 04:00:17 pm', '::1', '20-08-2019 11:38:01 am', '0', '1');
 
 --
 -- Indexes for dumped tables
