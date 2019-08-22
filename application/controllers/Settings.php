@@ -181,11 +181,11 @@ private function get_data()
 		$this->Form_model->admin_log_val();
 		if ($this->form_validation->run() == FALSE)
 		{
-			echo form_error('log_uid');
-			//redirect('settings/login');
+			
+			redirect('settings/login');
 		}
 		
-		/*$whr = array(
+		$whr = array(
 			'admin_uid' => $postdata['log_uid'],
 			'admin_password' => md5($postdata['log_password']),
 			'status' => 1,
@@ -226,7 +226,7 @@ private function get_data()
 			);
 		$this->Db_model->update('tbl_admin',$logclear,$whr);
 		session_destroy();
-		redirect('settings/login');*/
+		redirect('settings/login');
 	}
 
 	public function send_message()
