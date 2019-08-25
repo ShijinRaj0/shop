@@ -37,8 +37,6 @@
                         <img class="align-content" src="<?= base_url();?>admin_assets/images/logo-mg.png" alt="MarketGO Admin">
                     </a>
                 </div>
-                <div> blaaaaaa <?php echo form_error('log_uid'); ?>
-</div>
                 <div class="login-form"  style="background-color: #343a40;">
                     <form id="LoginForm" method="POST" action="<?= base_url();?>settings/admin_login"  >
                         <div class="form-group">

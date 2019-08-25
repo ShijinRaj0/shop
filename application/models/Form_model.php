@@ -13,7 +13,7 @@ class Form_model extends CI_Model {
         array(
                 'field' => 'log_uid',
                 'label' => 'Admin UID',
-                'rules' => 'valid_email',
+                'rules' => 'required',
         ),
         array(
                 'field' => 'log_password',

@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-sm-4">
                 <div class="page-header float-left">
                     <div class="page-title">
-                        <h1>My Profile</h1>
+                        <h1>My Profile </h1>
                     </div>
                 </div>
             </div>
